@@ -1,10 +1,13 @@
 {
-  "name": "mzdev-cli-calculator",
+  "name": "@mirzazaindev/cli-calculator",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
-  "bin": "./index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
